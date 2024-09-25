@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* LendItAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LendItAppTests.m */; };
+		02F839B0152E47ADB6636BE0 /* PoppinsSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0AC12500A6B46978363C7AD /* PoppinsSemiBold.ttf */; };
+		04CFE3DDD59341CE8E0213F0 /* RobotoBlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8750A741160495591331C13 /* RobotoBlackItalic.ttf */; };
+		056119756CB74F40847D5390 /* RobotoThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 302141C3AFD64D8D9C592BC0 /* RobotoThin.ttf */; };
+		066E9A7021B34DB7ABD5B002 /* JetBrainsMonoSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D0963A8428842A6AE0D423A /* JetBrainsMonoSemiBoldItalic.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-LendItApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-LendItApp.a */; };
+		0CCF5A4CDFDD478588550F2C /* PoppinsExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2008C47B8ED4A308BCFCE23 /* PoppinsExtraLight.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		14E08BA6B4E44D8BBAEF4E58 /* JetBrainsMonoExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01C7B710D22042DB9E76DD1A /* JetBrainsMonoExtraBold.ttf */; };
+		237053C665F04AA8B989C574 /* RobotoThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B4F5769E8B349DD96E6B5B7 /* RobotoThinItalic.ttf */; };
+		2FEBA9EA60D14F3F8A483FB4 /* RobotoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9D20856ED004A4C972B00E2 /* RobotoBold.ttf */; };
+		30CE55DB6A524FA2B44233F0 /* JetBrainsMonoItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3375FCAE145AEA903435B /* JetBrainsMonoItalic.ttf */; };
+		34CC3DA970524A2B98AFA461 /* PoppinsSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2B3DDA0E0D84ABE9E67B02F /* PoppinsSemiBoldItalic.ttf */; };
+		36C67595E54542BFA3876409 /* PoppinsRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F8BFD7EDBB04830A844A612 /* PoppinsRegular.ttf */; };
+		40E8706FB3854DD8B1D13F23 /* JetBrainsMonoExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1F097594564D918790DB9D /* JetBrainsMonoExtraLight.ttf */; };
+		4209A32364A04390BF5E7291 /* JetBrainsMonoBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD20ADF206E45D9B6B76EC1 /* JetBrainsMonoBoldItalic.ttf */; };
+		4526AB994E3748838E117069 /* JetBrainsMonoLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1AEF6AA21B4453AB5489179 /* JetBrainsMonoLightItalic.ttf */; };
+		47AF3A5F16FC5CC3AF47D79D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4E9419FAA4FA711A2B87A10A /* PrivacyInfo.xcprivacy */; };
+		49FD73B44A3D498A861198CE /* PoppinsMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6F32189567548D0AF057415 /* PoppinsMediumItalic.ttf */; };
+		59F9D584815242DD9B4EF314 /* PoppinsExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC813189FB64163B9F8F617 /* PoppinsExtraBoldItalic.ttf */; };
+		5D50C303807A411995A9C841 /* PoppinsItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1639F620B69F4324B2BA40A5 /* PoppinsItalic.ttf */; };
+		663F83D82CEE429BB90CACD5 /* RobotoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB7900A86FCD4AB0B36C902F /* RobotoRegular.ttf */; };
+		72595296778B405FB094773A /* JetBrainsMonoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20A1B00F391443D3A90ACFCD /* JetBrainsMonoRegular.ttf */; };
+		74898FB2A6D94FF69C3B4626 /* RobotoBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F73BE992F9740CCA0137DD0 /* RobotoBlack.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-LendItApp-LendItAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-LendItApp-LendItAppTests.a */; };
+		77FCD0BAB26A4DAAAD8121AC /* PoppinsLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADB3D1F37F2C4846B3CBEAE7 /* PoppinsLight.ttf */; };
+		7C252A20F0B34C738AC7DB34 /* JetBrainsMonoExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D35FD7F63F4F908266C1E4 /* JetBrainsMonoExtraBoldItalic.ttf */; };
+		7E32042B522D40BB80D7293B /* JetBrainsMonoExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB0950FB58624FD78D7D8C5A /* JetBrainsMonoExtraLightItalic.ttf */; };
+		7F7816E0CCF248A684562941 /* JetBrainsMonoSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D276F6635895427583D6570B /* JetBrainsMonoSemiBold.ttf */; };
+		7FA13020A9BA401289A69D52 /* RobotoBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C07EE33D50C4E919A40FD1B /* RobotoBoldItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8391BBAA23724B5AB08886B3 /* JetBrainsMonoMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB47D08D6BAF49188718F476 /* JetBrainsMonoMediumItalic.ttf */; };
+		88D3915B4CBA41BBB42BC84B /* PoppinsBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABCEB2BFE7EB4E6A82FAA570 /* PoppinsBold.ttf */; };
+		8D89DAF99DE24C8FA51F9810 /* RobotoMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1792FFEA7F4C4020A640CE0C /* RobotoMediumItalic.ttf */; };
+		8E390F853CAD4EB682AD939D /* PoppinsThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F86B42D1E377489E9EACE9D5 /* PoppinsThin.ttf */; };
+		95F1C310B4944E31B85D93A8 /* PoppinsLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 544EE838F4F44E1ABF6FC734 /* PoppinsLightItalic.ttf */; };
+		9C2E3F12298F4A12B00D8F3C /* JetBrainsMonoLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 066051DEE9834F1E8FA7C136 /* JetBrainsMonoLight.ttf */; };
+		9F6C846380F74B20B7BAEF94 /* PoppinsExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90FC9EF10B4048848DAA2FDC /* PoppinsExtraLightItalic.ttf */; };
+		A47AC56B8CDC4FC6BC3567C8 /* PoppinsBlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDCA61A1131F4A978EEC8B31 /* PoppinsBlackItalic.ttf */; };
+		A67C2727445C463CB67B207C /* RobotoLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E020CF012EA4B5BACD6D1BF /* RobotoLight.ttf */; };
+		ABE6E7D947C74D78A08612E6 /* RobotoItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2797EEE7A24746B10D7149 /* RobotoItalic.ttf */; };
+		AF7C2E2F8DBB4A8BA6EE2457 /* JetBrainsMonoThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87A0AF0739B4453482B7D3CA /* JetBrainsMonoThinItalic.ttf */; };
+		B46CE11C97824AF1A8BFE9B8 /* PoppinsExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 808FB702E8C84B7FB37F3D40 /* PoppinsExtraBold.ttf */; };
+		BC78DC99F9FD4840BC8F2194 /* JetBrainsMonoThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 138D92E230454F9F8DEFA52F /* JetBrainsMonoThin.ttf */; };
+		C3E8DFBCF03745E89B4B5D50 /* PoppinsMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95590DF4FF1B43FD8269CC46 /* PoppinsMedium.ttf */; };
+		C7264973E48D493A839EBC2B /* PoppinsThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25D92AB3D9654858BAF64CD4 /* PoppinsThinItalic.ttf */; };
+		D4F5CC8B8B5548E0AC16ADDD /* PoppinsBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6E725D3123143E19B97CB36 /* PoppinsBlack.ttf */; };
+		D86A4CD3035C4DC786D0F086 /* RobotoLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D0F34A58CC746F6BDF42164 /* RobotoLightItalic.ttf */; };
+		DFC236B6E1924C40835058FD /* PoppinsBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 889C8384DA3A4F37A6CD7392 /* PoppinsBoldItalic.ttf */; };
+		E792E6F9429E4B818D7D0C62 /* JetBrainsMonoMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9049EC125614121886263E9 /* JetBrainsMonoMedium.ttf */; };
+		F37F2AF584D74E9483C9BE51 /* RobotoMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6543CBA62CDA4673B712D35B /* RobotoMedium.ttf */; };
+		F8D0B6A68E394E00839D1EEE /* JetBrainsMonoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 534C0421865A4FDF9302A886 /* JetBrainsMonoBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = LendItApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* LendItAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LendItAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* LendItAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LendItAppTests.m; sourceTree = "<group>"; };
+		01C7B710D22042DB9E76DD1A /* JetBrainsMonoExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoExtraBold.ttf; path = ../src/assets/fonts/JetBrainsMonoExtraBold.ttf; sourceTree = "<group>"; };
+		066051DEE9834F1E8FA7C136 /* JetBrainsMonoLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoLight.ttf; path = ../src/assets/fonts/JetBrainsMonoLight.ttf; sourceTree = "<group>"; };
+		0C07EE33D50C4E919A40FD1B /* RobotoBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoBoldItalic.ttf; path = ../src/assets/fonts/RobotoBoldItalic.ttf; sourceTree = "<group>"; };
+		138D92E230454F9F8DEFA52F /* JetBrainsMonoThin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoThin.ttf; path = ../src/assets/fonts/JetBrainsMonoThin.ttf; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* LendItApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LendItApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LendItApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = LendItApp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LendItApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LendItApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LendItApp/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = LendItApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1639F620B69F4324B2BA40A5 /* PoppinsItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsItalic.ttf; path = ../src/assets/fonts/PoppinsItalic.ttf; sourceTree = "<group>"; };
+		1792FFEA7F4C4020A640CE0C /* RobotoMediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoMediumItalic.ttf; path = ../src/assets/fonts/RobotoMediumItalic.ttf; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-LendItApp-LendItAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LendItApp-LendItAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD20ADF206E45D9B6B76EC1 /* JetBrainsMonoBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoBoldItalic.ttf; path = ../src/assets/fonts/JetBrainsMonoBoldItalic.ttf; sourceTree = "<group>"; };
+		20A1B00F391443D3A90ACFCD /* JetBrainsMonoRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoRegular.ttf; path = ../src/assets/fonts/JetBrainsMonoRegular.ttf; sourceTree = "<group>"; };
+		25D92AB3D9654858BAF64CD4 /* PoppinsThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsThinItalic.ttf; path = ../src/assets/fonts/PoppinsThinItalic.ttf; sourceTree = "<group>"; };
+		2D0963A8428842A6AE0D423A /* JetBrainsMonoSemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoSemiBoldItalic.ttf; path = ../src/assets/fonts/JetBrainsMonoSemiBoldItalic.ttf; sourceTree = "<group>"; };
+		2F8BFD7EDBB04830A844A612 /* PoppinsRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsRegular.ttf; path = ../src/assets/fonts/PoppinsRegular.ttf; sourceTree = "<group>"; };
+		302141C3AFD64D8D9C592BC0 /* RobotoThin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoThin.ttf; path = ../src/assets/fonts/RobotoThin.ttf; sourceTree = "<group>"; };
+		3B1F097594564D918790DB9D /* JetBrainsMonoExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoExtraLight.ttf; path = ../src/assets/fonts/JetBrainsMonoExtraLight.ttf; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-LendItApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendItApp.debug.xcconfig"; path = "Target Support Files/Pods-LendItApp/Pods-LendItApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0F34A58CC746F6BDF42164 /* RobotoLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoLightItalic.ttf; path = ../src/assets/fonts/RobotoLightItalic.ttf; sourceTree = "<group>"; };
+		4E9419FAA4FA711A2B87A10A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = LendItApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		534C0421865A4FDF9302A886 /* JetBrainsMonoBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoBold.ttf; path = ../src/assets/fonts/JetBrainsMonoBold.ttf; sourceTree = "<group>"; };
+		544EE838F4F44E1ABF6FC734 /* PoppinsLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsLightItalic.ttf; path = ../src/assets/fonts/PoppinsLightItalic.ttf; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-LendItApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendItApp.release.xcconfig"; path = "Target Support Files/Pods-LendItApp/Pods-LendItApp.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-LendItApp-LendItAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendItApp-LendItAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LendItApp-LendItAppTests/Pods-LendItApp-LendItAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BE3375FCAE145AEA903435B /* JetBrainsMonoItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoItalic.ttf; path = ../src/assets/fonts/JetBrainsMonoItalic.ttf; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-LendItApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LendItApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E020CF012EA4B5BACD6D1BF /* RobotoLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoLight.ttf; path = ../src/assets/fonts/RobotoLight.ttf; sourceTree = "<group>"; };
+		6543CBA62CDA4673B712D35B /* RobotoMedium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoMedium.ttf; path = ../src/assets/fonts/RobotoMedium.ttf; sourceTree = "<group>"; };
+		808FB702E8C84B7FB37F3D40 /* PoppinsExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsExtraBold.ttf; path = ../src/assets/fonts/PoppinsExtraBold.ttf; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LendItApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87A0AF0739B4453482B7D3CA /* JetBrainsMonoThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoThinItalic.ttf; path = ../src/assets/fonts/JetBrainsMonoThinItalic.ttf; sourceTree = "<group>"; };
+		889C8384DA3A4F37A6CD7392 /* PoppinsBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsBoldItalic.ttf; path = ../src/assets/fonts/PoppinsBoldItalic.ttf; sourceTree = "<group>"; };
+		88D35FD7F63F4F908266C1E4 /* JetBrainsMonoExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoExtraBoldItalic.ttf; path = ../src/assets/fonts/JetBrainsMonoExtraBoldItalic.ttf; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-LendItApp-LendItAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendItApp-LendItAppTests.release.xcconfig"; path = "Target Support Files/Pods-LendItApp-LendItAppTests/Pods-LendItApp-LendItAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F73BE992F9740CCA0137DD0 /* RobotoBlack.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoBlack.ttf; path = ../src/assets/fonts/RobotoBlack.ttf; sourceTree = "<group>"; };
+		90FC9EF10B4048848DAA2FDC /* PoppinsExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsExtraLightItalic.ttf; path = ../src/assets/fonts/PoppinsExtraLightItalic.ttf; sourceTree = "<group>"; };
+		95590DF4FF1B43FD8269CC46 /* PoppinsMedium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsMedium.ttf; path = ../src/assets/fonts/PoppinsMedium.ttf; sourceTree = "<group>"; };
+		9B4F5769E8B349DD96E6B5B7 /* RobotoThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoThinItalic.ttf; path = ../src/assets/fonts/RobotoThinItalic.ttf; sourceTree = "<group>"; };
+		ABCEB2BFE7EB4E6A82FAA570 /* PoppinsBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsBold.ttf; path = ../src/assets/fonts/PoppinsBold.ttf; sourceTree = "<group>"; };
+		ADB3D1F37F2C4846B3CBEAE7 /* PoppinsLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsLight.ttf; path = ../src/assets/fonts/PoppinsLight.ttf; sourceTree = "<group>"; };
+		B2B3DDA0E0D84ABE9E67B02F /* PoppinsSemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsSemiBoldItalic.ttf; path = ../src/assets/fonts/PoppinsSemiBoldItalic.ttf; sourceTree = "<group>"; };
+		B6E725D3123143E19B97CB36 /* PoppinsBlack.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsBlack.ttf; path = ../src/assets/fonts/PoppinsBlack.ttf; sourceTree = "<group>"; };
+		B9049EC125614121886263E9 /* JetBrainsMonoMedium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoMedium.ttf; path = ../src/assets/fonts/JetBrainsMonoMedium.ttf; sourceTree = "<group>"; };
+		BF2797EEE7A24746B10D7149 /* RobotoItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoItalic.ttf; path = ../src/assets/fonts/RobotoItalic.ttf; sourceTree = "<group>"; };
+		C1AEF6AA21B4453AB5489179 /* JetBrainsMonoLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoLightItalic.ttf; path = ../src/assets/fonts/JetBrainsMonoLightItalic.ttf; sourceTree = "<group>"; };
+		C2008C47B8ED4A308BCFCE23 /* PoppinsExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsExtraLight.ttf; path = ../src/assets/fonts/PoppinsExtraLight.ttf; sourceTree = "<group>"; };
+		C6F32189567548D0AF057415 /* PoppinsMediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsMediumItalic.ttf; path = ../src/assets/fonts/PoppinsMediumItalic.ttf; sourceTree = "<group>"; };
+		CB0950FB58624FD78D7D8C5A /* JetBrainsMonoExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoExtraLightItalic.ttf; path = ../src/assets/fonts/JetBrainsMonoExtraLightItalic.ttf; sourceTree = "<group>"; };
+		CDCA61A1131F4A978EEC8B31 /* PoppinsBlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsBlackItalic.ttf; path = ../src/assets/fonts/PoppinsBlackItalic.ttf; sourceTree = "<group>"; };
+		D276F6635895427583D6570B /* JetBrainsMonoSemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoSemiBold.ttf; path = ../src/assets/fonts/JetBrainsMonoSemiBold.ttf; sourceTree = "<group>"; };
+		D8750A741160495591331C13 /* RobotoBlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoBlackItalic.ttf; path = ../src/assets/fonts/RobotoBlackItalic.ttf; sourceTree = "<group>"; };
+		D9D20856ED004A4C972B00E2 /* RobotoBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoBold.ttf; path = ../src/assets/fonts/RobotoBold.ttf; sourceTree = "<group>"; };
+		E0AC12500A6B46978363C7AD /* PoppinsSemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsSemiBold.ttf; path = ../src/assets/fonts/PoppinsSemiBold.ttf; sourceTree = "<group>"; };
+		EB7900A86FCD4AB0B36C902F /* RobotoRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoRegular.ttf; path = ../src/assets/fonts/RobotoRegular.ttf; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F86B42D1E377489E9EACE9D5 /* PoppinsThin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsThin.ttf; path = ../src/assets/fonts/PoppinsThin.ttf; sourceTree = "<group>"; };
+		FB47D08D6BAF49188718F476 /* JetBrainsMonoMediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JetBrainsMonoMediumItalic.ttf; path = ../src/assets/fonts/JetBrainsMonoMediumItalic.ttf; sourceTree = "<group>"; };
+		FEC813189FB64163B9F8F617 /* PoppinsExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsExtraBoldItalic.ttf; path = ../src/assets/fonts/PoppinsExtraBoldItalic.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-LendItApp-LendItAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-LendItApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* LendItAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* LendItAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = LendItAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* LendItApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				4E9419FAA4FA711A2B87A10A /* PrivacyInfo.xcprivacy */,
+			);
+			name = LendItApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-LendItApp.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-LendItApp-LendItAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* LendItApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* LendItAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				C847FE467A2A49969B9D7E89 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* LendItApp.app */,
+				00E356EE1AD99517003FC87E /* LendItAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-LendItApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-LendItApp.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-LendItApp-LendItAppTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-LendItApp-LendItAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C847FE467A2A49969B9D7E89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				534C0421865A4FDF9302A886 /* JetBrainsMonoBold.ttf */,
+				1AD20ADF206E45D9B6B76EC1 /* JetBrainsMonoBoldItalic.ttf */,
+				01C7B710D22042DB9E76DD1A /* JetBrainsMonoExtraBold.ttf */,
+				88D35FD7F63F4F908266C1E4 /* JetBrainsMonoExtraBoldItalic.ttf */,
+				3B1F097594564D918790DB9D /* JetBrainsMonoExtraLight.ttf */,
+				CB0950FB58624FD78D7D8C5A /* JetBrainsMonoExtraLightItalic.ttf */,
+				5BE3375FCAE145AEA903435B /* JetBrainsMonoItalic.ttf */,
+				066051DEE9834F1E8FA7C136 /* JetBrainsMonoLight.ttf */,
+				C1AEF6AA21B4453AB5489179 /* JetBrainsMonoLightItalic.ttf */,
+				B9049EC125614121886263E9 /* JetBrainsMonoMedium.ttf */,
+				FB47D08D6BAF49188718F476 /* JetBrainsMonoMediumItalic.ttf */,
+				20A1B00F391443D3A90ACFCD /* JetBrainsMonoRegular.ttf */,
+				D276F6635895427583D6570B /* JetBrainsMonoSemiBold.ttf */,
+				2D0963A8428842A6AE0D423A /* JetBrainsMonoSemiBoldItalic.ttf */,
+				138D92E230454F9F8DEFA52F /* JetBrainsMonoThin.ttf */,
+				87A0AF0739B4453482B7D3CA /* JetBrainsMonoThinItalic.ttf */,
+				B6E725D3123143E19B97CB36 /* PoppinsBlack.ttf */,
+				CDCA61A1131F4A978EEC8B31 /* PoppinsBlackItalic.ttf */,
+				ABCEB2BFE7EB4E6A82FAA570 /* PoppinsBold.ttf */,
+				889C8384DA3A4F37A6CD7392 /* PoppinsBoldItalic.ttf */,
+				808FB702E8C84B7FB37F3D40 /* PoppinsExtraBold.ttf */,
+				FEC813189FB64163B9F8F617 /* PoppinsExtraBoldItalic.ttf */,
+				C2008C47B8ED4A308BCFCE23 /* PoppinsExtraLight.ttf */,
+				90FC9EF10B4048848DAA2FDC /* PoppinsExtraLightItalic.ttf */,
+				1639F620B69F4324B2BA40A5 /* PoppinsItalic.ttf */,
+				ADB3D1F37F2C4846B3CBEAE7 /* PoppinsLight.ttf */,
+				544EE838F4F44E1ABF6FC734 /* PoppinsLightItalic.ttf */,
+				95590DF4FF1B43FD8269CC46 /* PoppinsMedium.ttf */,
+				C6F32189567548D0AF057415 /* PoppinsMediumItalic.ttf */,
+				2F8BFD7EDBB04830A844A612 /* PoppinsRegular.ttf */,
+				E0AC12500A6B46978363C7AD /* PoppinsSemiBold.ttf */,
+				B2B3DDA0E0D84ABE9E67B02F /* PoppinsSemiBoldItalic.ttf */,
+				F86B42D1E377489E9EACE9D5 /* PoppinsThin.ttf */,
+				25D92AB3D9654858BAF64CD4 /* PoppinsThinItalic.ttf */,
+				8F73BE992F9740CCA0137DD0 /* RobotoBlack.ttf */,
+				D8750A741160495591331C13 /* RobotoBlackItalic.ttf */,
+				D9D20856ED004A4C972B00E2 /* RobotoBold.ttf */,
+				0C07EE33D50C4E919A40FD1B /* RobotoBoldItalic.ttf */,
+				BF2797EEE7A24746B10D7149 /* RobotoItalic.ttf */,
+				5E020CF012EA4B5BACD6D1BF /* RobotoLight.ttf */,
+				3D0F34A58CC746F6BDF42164 /* RobotoLightItalic.ttf */,
+				6543CBA62CDA4673B712D35B /* RobotoMedium.ttf */,
+				1792FFEA7F4C4020A640CE0C /* RobotoMediumItalic.ttf */,
+				EB7900A86FCD4AB0B36C902F /* RobotoRegular.ttf */,
+				302141C3AFD64D8D9C592BC0 /* RobotoThin.ttf */,
+				9B4F5769E8B349DD96E6B5B7 /* RobotoThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* LendItAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LendItAppTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = LendItAppTests;
+			productName = LendItAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* LendItAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* LendItApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LendItApp" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LendItApp;
+			productName = LendItApp;
+			productReference = 13B07F961A680F5B00A75B9A /* LendItApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LendItApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* LendItApp */,
+				00E356ED1AD99517003FC87E /* LendItAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F8D0B6A68E394E00839D1EEE /* JetBrainsMonoBold.ttf in Resources */,
+				4209A32364A04390BF5E7291 /* JetBrainsMonoBoldItalic.ttf in Resources */,
+				14E08BA6B4E44D8BBAEF4E58 /* JetBrainsMonoExtraBold.ttf in Resources */,
+				7C252A20F0B34C738AC7DB34 /* JetBrainsMonoExtraBoldItalic.ttf in Resources */,
+				40E8706FB3854DD8B1D13F23 /* JetBrainsMonoExtraLight.ttf in Resources */,
+				7E32042B522D40BB80D7293B /* JetBrainsMonoExtraLightItalic.ttf in Resources */,
+				30CE55DB6A524FA2B44233F0 /* JetBrainsMonoItalic.ttf in Resources */,
+				9C2E3F12298F4A12B00D8F3C /* JetBrainsMonoLight.ttf in Resources */,
+				4526AB994E3748838E117069 /* JetBrainsMonoLightItalic.ttf in Resources */,
+				E792E6F9429E4B818D7D0C62 /* JetBrainsMonoMedium.ttf in Resources */,
+				8391BBAA23724B5AB08886B3 /* JetBrainsMonoMediumItalic.ttf in Resources */,
+				72595296778B405FB094773A /* JetBrainsMonoRegular.ttf in Resources */,
+				7F7816E0CCF248A684562941 /* JetBrainsMonoSemiBold.ttf in Resources */,
+				066E9A7021B34DB7ABD5B002 /* JetBrainsMonoSemiBoldItalic.ttf in Resources */,
+				BC78DC99F9FD4840BC8F2194 /* JetBrainsMonoThin.ttf in Resources */,
+				AF7C2E2F8DBB4A8BA6EE2457 /* JetBrainsMonoThinItalic.ttf in Resources */,
+				D4F5CC8B8B5548E0AC16ADDD /* PoppinsBlack.ttf in Resources */,
+				A47AC56B8CDC4FC6BC3567C8 /* PoppinsBlackItalic.ttf in Resources */,
+				88D3915B4CBA41BBB42BC84B /* PoppinsBold.ttf in Resources */,
+				DFC236B6E1924C40835058FD /* PoppinsBoldItalic.ttf in Resources */,
+				B46CE11C97824AF1A8BFE9B8 /* PoppinsExtraBold.ttf in Resources */,
+				59F9D584815242DD9B4EF314 /* PoppinsExtraBoldItalic.ttf in Resources */,
+				0CCF5A4CDFDD478588550F2C /* PoppinsExtraLight.ttf in Resources */,
+				9F6C846380F74B20B7BAEF94 /* PoppinsExtraLightItalic.ttf in Resources */,
+				5D50C303807A411995A9C841 /* PoppinsItalic.ttf in Resources */,
+				77FCD0BAB26A4DAAAD8121AC /* PoppinsLight.ttf in Resources */,
+				95F1C310B4944E31B85D93A8 /* PoppinsLightItalic.ttf in Resources */,
+				C3E8DFBCF03745E89B4B5D50 /* PoppinsMedium.ttf in Resources */,
+				49FD73B44A3D498A861198CE /* PoppinsMediumItalic.ttf in Resources */,
+				36C67595E54542BFA3876409 /* PoppinsRegular.ttf in Resources */,
+				02F839B0152E47ADB6636BE0 /* PoppinsSemiBold.ttf in Resources */,
+				34CC3DA970524A2B98AFA461 /* PoppinsSemiBoldItalic.ttf in Resources */,
+				8E390F853CAD4EB682AD939D /* PoppinsThin.ttf in Resources */,
+				C7264973E48D493A839EBC2B /* PoppinsThinItalic.ttf in Resources */,
+				74898FB2A6D94FF69C3B4626 /* RobotoBlack.ttf in Resources */,
+				04CFE3DDD59341CE8E0213F0 /* RobotoBlackItalic.ttf in Resources */,
+				2FEBA9EA60D14F3F8A483FB4 /* RobotoBold.ttf in Resources */,
+				7FA13020A9BA401289A69D52 /* RobotoBoldItalic.ttf in Resources */,
+				ABE6E7D947C74D78A08612E6 /* RobotoItalic.ttf in Resources */,
+				A67C2727445C463CB67B207C /* RobotoLight.ttf in Resources */,
+				D86A4CD3035C4DC786D0F086 /* RobotoLightItalic.ttf in Resources */,
+				F37F2AF584D74E9483C9BE51 /* RobotoMedium.ttf in Resources */,
+				8D89DAF99DE24C8FA51F9810 /* RobotoMediumItalic.ttf in Resources */,
+				663F83D82CEE429BB90CACD5 /* RobotoRegular.ttf in Resources */,
+				056119756CB74F40847D5390 /* RobotoThin.ttf in Resources */,
+				237053C665F04AA8B989C574 /* RobotoThinItalic.ttf in Resources */,
+				47AF3A5F16FC5CC3AF47D79D /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendItApp/Pods-LendItApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendItApp/Pods-LendItApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LendItApp/Pods-LendItApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LendItApp-LendItAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LendItApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendItApp-LendItAppTests/Pods-LendItApp-LendItAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendItApp-LendItAppTests/Pods-LendItApp-LendItAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LendItApp-LendItAppTests/Pods-LendItApp-LendItAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendItApp/Pods-LendItApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendItApp/Pods-LendItApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LendItApp/Pods-LendItApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendItApp-LendItAppTests/Pods-LendItApp-LendItAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendItApp-LendItAppTests/Pods-LendItApp-LendItAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LendItApp-LendItAppTests/Pods-LendItApp-LendItAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* LendItAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* LendItApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-LendItApp-LendItAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LendItAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LendItApp.app/LendItApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-LendItApp-LendItAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = LendItAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LendItApp.app/LendItApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-LendItApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LendItApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LendItApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-LendItApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = LendItApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LendItApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CXX = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CXX = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LendItAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LendItApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LendItApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

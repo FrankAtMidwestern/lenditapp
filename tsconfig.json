@@ -1,0 +1,31 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@navigation/*": ["./src/navigation/*"],
+      "@redux/*": ["./src/redux/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@theme/*": ["./src/theme/*"],
+      "@utils/*": ["./src/utils/*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "files": [
+    "./node_modules/redux-persist/types/integration/react.d.ts"
+  ]
+}

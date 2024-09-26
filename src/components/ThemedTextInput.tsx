@@ -1,8 +1,7 @@
 import React from 'react';
-import {TextInput, StyleSheet, useColorScheme, Text, View} from 'react-native';
-import lightTheme from '../theme/light';
-import darkTheme from '../theme/dark';
+import {TextInput, StyleSheet, Text, View} from 'react-native';
 import {getFontFamily} from '@utils/fontFamily';
+import useTheme from 'src/hooks/useTheme';
 
 const ThemedTextInput = ({
   placeholder,
@@ -21,8 +20,7 @@ const ThemedTextInput = ({
   isFocused?: boolean;
 }) => {
   const remainingProps = rest;
-  const scheme = useColorScheme();
-  const theme = scheme === 'dark' ? darkTheme : lightTheme;
+  const theme = useTheme();
 
   return (
     <View style={styles.container}>

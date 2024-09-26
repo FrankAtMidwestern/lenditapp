@@ -1,8 +1,7 @@
 import React from 'react';
-import {Pressable, Text, StyleSheet, useColorScheme} from 'react-native';
-import lightTheme from '../theme/light';
-import darkTheme from '../theme/dark';
+import {Pressable, Text, StyleSheet} from 'react-native';
 import {getFontFamily} from '@utils/fontFamily';
+import useTheme from 'src/hooks/useTheme';
 
 const ThemedButton = ({
   title,
@@ -15,8 +14,7 @@ const ThemedButton = ({
   type?: 'primary' | 'secondary' | 'accent';
 }) => {
   const remainingProps = rest;
-  const scheme = useColorScheme();
-  const theme = scheme === 'dark' ? darkTheme : lightTheme;
+  const theme = useTheme();
 
   return (
     <Pressable
@@ -25,8 +23,9 @@ const ThemedButton = ({
         {
           backgroundColor: theme[type],
           borderColor: theme.textPrimary,
-          borderWidth: 2,
-          opacity: pressed ? 0.6 : 1,
+          borderWidth: StyleSheet.hairlineWidth,
+          opacity: pressed ? 0.3 : 1,
+          transform: [{scale: pressed ? 0.98 : 1}],
         },
       ]}
       onPress={onPress}

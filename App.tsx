@@ -13,6 +13,8 @@ import darkTheme from './src/theme/dark';
 import ThemedText from '@components/ThemedText';
 import {isIOS} from '@utils/platformUtil';
 import changeNavigationBarColor from 'react-native-navigation-bar-color';
+import ThemedTextInput from '@components/ThemedTextInput';
+import ThemedButton from '@components/ThemedButton';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +24,9 @@ const HomeScreen = () => {
       <ThemedText style={{fontFamily: getFontFamily('ROBOTO', 'medium')}}>
         App
       </ThemedText>
+      <ThemedButton title="Press me" onPress={() => {}} />
+      <ThemedButton title="Press me" onPress={() => {}} type="secondary" />
+      <ThemedButton title="Press me" onPress={() => {}} type="accent" />
     </ThemedView>
   );
 };

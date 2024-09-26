@@ -1,35 +1,18 @@
 import React from 'react';
 import {DefaultTheme, NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {StatusBar, Text, useColorScheme, View} from 'react-native';
+import {StatusBar, useColorScheme} from 'react-native';
 import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
 import {store, persistor} from './src/redux/store';
-import {getFontFamily} from '@utils/fontFamily';
 import NetworkListener from '@components/NetworkListener';
-import ThemedView from '@components/ThemedView';
 import lightTheme from './src/theme/light';
 import darkTheme from './src/theme/dark';
-import ThemedText from '@components/ThemedText';
 import {isIOS} from '@utils/platformUtil';
 import changeNavigationBarColor from 'react-native-navigation-bar-color';
-import ThemedTextInput from '@components/ThemedTextInput';
-import ThemedButton from '@components/ThemedButton';
+import MainNavigator from '@navigation/index';
 
 const Stack = createNativeStackNavigator();
-
-const HomeScreen = () => {
-  return (
-    <ThemedView>
-      <ThemedText style={{fontFamily: getFontFamily('ROBOTO', 'medium')}}>
-        App
-      </ThemedText>
-      <ThemedButton title="Press me" onPress={() => {}} />
-      <ThemedButton title="Press me" onPress={() => {}} type="secondary" />
-      <ThemedButton title="Press me" onPress={() => {}} type="accent" />
-    </ThemedView>
-  );
-};
 
 const App = () => {
   const scheme = useColorScheme();
@@ -52,15 +35,7 @@ const App = () => {
         />
         <NetworkListener />
         <NavigationContainer theme={navTheme}>
-          <Stack.Navigator
-            screenOptions={{
-              headerTintColor: theme.primary,
-              headerStyle: {
-                backgroundColor: theme.surface,
-              },
-            }}>
-            <Stack.Screen name="Home" component={HomeScreen} />
-          </Stack.Navigator>
+          <MainNavigator />
         </NavigationContainer>
       </PersistGate>
     </Provider>

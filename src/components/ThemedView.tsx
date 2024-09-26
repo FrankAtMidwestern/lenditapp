@@ -1,11 +1,9 @@
 import React from 'react';
-import {View, ViewProps, useColorScheme} from 'react-native';
-import lightTheme from '../theme/light';
-import darkTheme from '../theme/dark';
+import {View, ViewProps} from 'react-native';
+import useTheme from 'src/hooks/useTheme';
 
 const ThemedView: React.FC<ViewProps> = props => {
-  const scheme = useColorScheme();
-  const theme = scheme === 'dark' ? darkTheme : lightTheme;
+  const theme = useTheme();
 
   return (
     <View style={[{backgroundColor: theme.background}, props.style]}>
@@ -13,5 +11,4 @@ const ThemedView: React.FC<ViewProps> = props => {
     </View>
   );
 };
-
 export default ThemedView;
